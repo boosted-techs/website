@@ -1,143 +1,123 @@
 {extends file="index.tpl"}
 {block name="body"}
-    <div class="banner-area banner-bg-1">
-        <div class="container">
+    <!--Page Title-->
+    <section class="page-title" style="background-image: url(//{$smarty.server.SERVER_NAME}/assets/images/background/12-black-bg.jpg);">
+        <div class="auto-container">
+            <h1>Services</h1>
+            <span class="title_divider"></span>
+            <ul class="page-breadcrumb">
+                <li><a href="//{$smarty.server.SERVER_NAME}">Home</a></li>
+                <li>Services</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+    <section class="case-study-section">
+        <div class="auto-container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="banner">
-                        <h2>Our Services</h2>
-                        <ul class="page-title-link">
-                            <li><a href="//{$smarty.server.SERVER_NAME}">Home</a></li>
-                            <li><a href="#">Our Services</a></li>
-                        </ul>
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/mobile-and-desktop-application-development"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/android-development.jpg" alt=""></a></figure>
+                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_4.png" alt=""></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/mobile-and-desktop-application-development">Mobile and desktop Application development</a></h4>
+                            <div class="text">Improve communication between your business and your customers, organise your business accounts with a custom application solution<br/><br/></div>
+                            <div class="btn-box">
+                                <a href="//{$smarty.server.SERVER_NAME}/services/mobile-and-desktop-application-development" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/computer-network-installation"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/computer-network.jpg" alt=""></a></figure>
+                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_5.png" alt=""></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/computer-network-installation">Computer network Installation</a></h4>
+                            <div class="text">Enhance communication between your subordinates at work. Reduce un necessary movements and increase efficiency with a proper computer network.</div>
+                            <div class="btn-box">
+                                <a href="//{$smarty.server.SERVER_NAME}/services/computer-network-installation" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/computer-hardware-and-printer-repair-and-maintenance"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/printer-repair.jpg" alt=""></a></figure>
+                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_6.png" alt=""></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/computer-hardware-and-printer-repair-and-maintenance">Computer Hardware & Printer repair and maintenance</a></h4>
+                            <div class="text">Computer hardware systems are designed to work for a given time and ware out there after. However, ensure system performance continuity with us.</div>
+                            <div class="btn-box">
+                                <a href="//{$smarty.server.SERVER_NAME}/services/computer-hardware-and-printer-repair-and-maintenance" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/computer-system-installation"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/office-work.jpg" alt="Boosted Technologies computer installation"></a></figure>
+                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_1.png" alt=""></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/computer-system-installation">Office computer ware</a></h4>
+                            <div class="text">Computer system installation, repair and servicing. Printer installation and repair</div>
+                            <div class="btn-box">
+                                <a href="//{$smarty.server.SERVER_NAME}/services/computer-system-installation" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/website-and-web-app-development"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/software-development.jpg" alt=""></a></figure>
+                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_2.png" alt=""></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/website-and-web-app-development">Web development services</a></h4>
+                            <div class="text">As long as it is concerned with the web, we are here for that exact purpose. We develop, maintain web apps & servers</div>
+                            <div class="btn-box">
+                                <a href="//{$smarty.server.SERVER_NAME}/services/website-and-web-app-development" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/ict-training-for-businesses"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/training.jpg" alt=""></a></figure>
+                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_3.png" alt=""></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/ict-training-for-businesses">Business ICT training</a></h4>
+                            <div class="text">We are well incapacitated to provide ICT training for business enterprises. Minimise Computer human errors</div>
+                            <div class="btn-box">
+                                <a href="//{$smarty.server.SERVER_NAME}/services/ict-training-for-businesses" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-3 col-sm-6">
-                    <div class="about-item">
-                        <div class="about-icon">
-                            <span class="icon icon-display"></span>
-                        </div>
-                        <div class="about-text">
-                            <h3> <a href="#">Computer Maintenance and Repair </a></h3>
-                            <p>No need to have a mul-functioning computer, smart phone or any other computer hardware. Through DevMate, that is now solved </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="about-item">
-                        <div class="about-icon">
-                            <span class="icon icon-database"></span>
-                        </div>
-                        <div class="about-text">
-                            <h3> <a href="#">Data management . </a></h3>
-                            <p>Without online data center, we manage our client's business data though our data management systems</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="about-item">
-                        <div class="about-icon">
-                            <span class="icon icon-magic-wand"></span>
-                        </div>
-                        <div class="about-text">
-                            <h3> <a href="#">IT Consultancy </a></h3>
-                            <p>With our experts, we work with business to come up with IT related solutions to their day to day Business challenges</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="about-item">
-                        <div class="about-icon">
-                            <span class="icon icon-cloud"></span>
-                        </div>
-                        <div class="about-text">
-                            <h3> <a href="#">Web Design and Hosting </a></h3>
-                            <p>It is no longer news, every business in this trend should have a website as the first address. We made that easy with our fair pricing.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-    <div id="services" class="parallax section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Our Service</h3>
-                <p class="lead">
-                    Services at pocket friendly prices.
-                </p>
-            </div><!-- end title -->
-
-            <div class="owl-services owl-carousel owl-theme">
-                <div class="service-widget">
-                    <div class="post-media wow fadeIn">
-                        <a href="//{$smarty.server.SERVER_NAME}/assets/uploads/service_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/service_01.jpg" alt="" class="img-responsive img-rounded">
-                    </div>
-                    <div class="service-dit">
-                        <h3>WEB AND MOBILE APPLICATION DEVELOPMENT</h3>
-                        <p>
-                            Smart phones, PCs and electronic devices are the new raves. This means you can reach potential customer from any part of the world at any time. You can reach billions of persons around the world in a couple of seconds Through social media apps like Facebook, Twitter, Instagram etc. ... </p>
-                    </div>
-                </div>
-                <!-- end service -->
-
-                <div class="service-widget">
-                    <div class="post-media wow fadeIn">
-                        <a href="//{$smarty.server.SERVER_NAME}/assets/uploads/service_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/service_02.jpg" alt="" class="img-responsive img-rounded">
-                    </div>
-                    <div class="service-dit">
-                        <h3>Graphics design and Branding</h3>
-                        <p>
-                            Whether you are an established business or an individual just starting out, the visual appeal of logo design can’t be less important. Coming up with and incorporating design into your brand should be left in the hands of a professional.
-                            Boosted Technologies is the team to help you do just that. Be it for business cards or billboards, we are equipped.......
-                        </p>
-                    </div>
-                </div>
-                <!-- end service -->
-
-                <div class="service-widget">
-                    <div class="post-media wow fadeIn">
-                        <a href="//{$smarty.server.SERVER_NAME}/assets/uploads/service_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/service_03.jpg" alt="" class="img-responsive img-rounded">
-                    </div>
-                    <div class="service-dit">
-                        <h3>DIgital Marketing</h3>
-                        <p>We provide a complete range of internet marketing services for clients of all industries and markets. Online presence is one of the most important aspects of today’s business. Those who partake in internet marketing can reap the rewards of having a strong presence on the internet. Simply having a website is not enough these days. We are providing our...</p>
-                    </div>
-                </div>
-                <!-- end service -->
-
-                <div class="service-widget">
-                    <div class="post-media wow fadeIn">
-                        <a href="//{$smarty.server.SERVER_NAME}/assets/uploads/service_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/service_04.jpg" alt="" class="img-responsive img-rounded">
-                    </div>
-                    <div class="service-dit">
-                        <h3>Computer hardware and Software repair and maintenance</h3>
-                        <p>
-                            We do software and hard ware installations and repairs for desktop computers and related systems.
-                        </p>
-                        <p>For windows, Machnitosh, Linux and other related Operating systems are maintained and installed</p>
-                    </div>
-                </div>
-                <!-- end service -->
-            </div><!-- end row -->
-
-            <hr class="hr1">
-
-            <div class="text-center">
-                <a data-scroll href="./portfolio" class="btn btn-light btn-radius btn-brd">View Our Portfolio</a>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end section -->
+    </section>
+    <!-- End Case Study Section -->
 {/block}

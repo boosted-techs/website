@@ -1,43 +1,39 @@
 {extends file="index.tpl"}
 {block name="body"}
-    <script src="https://rhapsodyofrealities.b-cdn.net/rin/assets/playerjs.js"></script>
-    <style>
-        .m--120 {
-            margin-top: -120px !important;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .m--120 {
-                margin-top: -65px !important;
-            }
-        }
-
-    </style>
-        <div style="padding: 10px" class="text-center">
-            <h2>LIVE TV :  TESTING SIGNAL</h2>
+    <!--Page Title-->
+    <section class="page-title" style="background-image: url(//{$smarty.server.SERVER_NAME}/assets/images/background/12-black-bg.jpg);">
+        <div class="auto-container">
+            <h1>Boosted Broad Cast</h1>
+            <span class="title_divider"></span>
+            <ul class="page-breadcrumb">
+                <li><a href="//{$smarty.server.SERVER_NAME}">Home</a></li>
+                <li>Broad cast</li>
+            </ul>
         </div>
-        <div id="about" class="section wb">
-            <div id="player"  class="m--120" style="width: 100%; max-width: 780px; margin:auto;"></div>
-        </div><!-- end section -->
-<form id="comment">
-    <div style="max-width: 780px; width: 100%; margin:auto;">
-        <h3 class="text-danger">Comments</h3>
-        <div class="comment bg-danger" style="max-height: 500px; overflow-y: scroll; padding: 10px"></div>
-        <h3 class="text-warning">Leave a comment</h3>
-        <label for="message">Message</label>
-        <textarea id="message" class="form-control" placeholder="Your message goes here" style="border: 0"></textarea>
+    </section>
+    <!--End Page Title-->
+    <script src="https://rhapsodyofrealities.b-cdn.net/rin/assets/playerjs.js"></script>
+            <div id="player"  class="m--120" style="width: 100%; max-width: 780px; margin:auto; margin-top: 80px;"></div>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" class="form-control" placeholder="Type names here" style="border: 0">
+{*<form id="comment">*}
+    {*<div style="max-width: 780px; width: 100%; margin:auto;">*}
+        {*<h3 class="text-danger">Comments</h3>*}
+        {*<div class="comment bg-danger" style="max-height: 500px; overflow-y: scroll; padding: 10px"></div>*}
+        {*<h3 class="text-warning">Leave a comment</h3>*}
+        {*<label for="message">Message</label>*}
+        {*<textarea id="message" class="form-control" placeholder="Your message goes here" style="border: 0"></textarea>*}
 
-        <label for="email">Email</label>
-        <input type="text" id="email" placeholder="type email here" class="form-control" style="border: 0">
-        <input type="submit" class="btn btn-info" value="Post Comment" style="margin-top: 20px; margin-bottom: 20px">
-    </div>
-</form>
+        {*<label for="name">Name</label>*}
+        {*<input type="text" id="name" class="form-control" placeholder="Type names here" style="border: 0">*}
+
+        {*<label for="email">Email</label>*}
+        {*<input type="text" id="email" placeholder="type email here" class="form-control" style="border: 0">*}
+        {*<input type="submit" class="btn btn-info" value="Post Comment" style="margin-top: 20px; margin-bottom: 20px">*}
+    {*</div>*}
+{*</form>*}
     <script>
         {literal}
-            let player = new Playerjs({id:"player", title:"Boosted Academy", player:2, file:"https://www.youtube.com/watch?v=IDKy8C8nlnc"});
+            let player = new Playerjs({id:"player", title:"Boosted Academy", player:2, file:"https://www.youtube.com/watch?v=O0lZCGMepe0"});
         {/literal}
     </script>
         <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>

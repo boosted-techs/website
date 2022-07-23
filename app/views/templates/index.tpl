@@ -1,373 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>{$title} Boosted Technologies - Inspired by innovations</title>
-<!-- Basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="yandex-verification" content="041796f73f77a53c" />
-<!-- Mobile Metas -->
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <title>{$title} Boosted Technologies - Inspired by innovations</title>
+    <!-- Stylesheets -->
+    <link href="//{$smarty.server.SERVER_NAME}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+    <link href="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+    <link href="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
 
-<!-- Site Metas -->
-<meta name="author" content="Tumusiime ashiraff https://www.tumusiime.boostedtechs.com" />
-<meta name="keywords" content="Boosted Technologies, Boosted Technologies LTD, Technology news, cheap data analysis, cheap web design, free hosting, cheap graphics design, cheap digital marketing, cheap web cloud hosting, Boosted, Technologies, Boosted Technologies Uganda, Tumusiime, Tumusiime Ashiraff, Ashan, Betty Happy, Devmate, Boasted Technologies, Boasted Technologies Uganda, Digital marketing in uganda, Boo store, Booo store, Digital marketing, Web development in Uganda, Professional web developers"/>
-<meta name="description" content="We are the center for efficient innovations and creations in tech. Our Boosted Tech solutions have helped to improve standards of living for our people in our communities." />
-<!-- Site Icons -->
-<link rel="shortcut icon" href="//{$smarty.server.SERVER_NAME}/assets/images/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="//{$smarty.server.SERVER_NAME}/assets/images/apple-touch-icon.png">
+    <link href="//{$smarty.server.SERVER_NAME}/assets/css/style.css" rel="stylesheet">
+    <link href="//{$smarty.server.SERVER_NAME}/assets/css/responsive.css" rel="stylesheet">
 
-<meta property="og:title" content="{$title} - Boosted Technologies">
-<meta property="og:site_name" content="Boosted Technologies">
-<meta property="og:description" content="We are the center for efficient innovations and creations in tech. Our Boosted Tech solutions have helped to improve standards of living for our people in our communities.">
-<meta property="og:image" content="{if isset($og_img)} {$og_img}{else}https://{$smarty.server.SERVER_NAME}/assets/boosted_logo.jpg"{/if}>
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="//{$smarty.server.SERVER_NAME}/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="//{$smarty.server.SERVER_NAME}/assets/images/apple-touch-icon.png">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="//{$smarty.server.SERVER_NAME}/assets/css/bootstrap.min.css">
-<!-- Site CSS -->
-<link rel="stylesheet" href="//{$smarty.server.SERVER_NAME}/assets/style.css">
-<!-- Responsive CSS -->
-<link rel="stylesheet" href="//{$smarty.server.SERVER_NAME}/assets/css/responsive.css">
-<!-- Custom CSS -->
-<link rel="stylesheet" href="//{$smarty.server.SERVER_NAME}/assets/css/custom.css">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="//{$smarty.server.SERVER_NAME}/assets/js/respond.js"></script><![endif]-->
 
-<!-- Modernizer for Portfolio -->
-<script src="//{$smarty.server.SERVER_NAME}/assets/js/modernizer.js"></script>
+    <meta property="og:title" content="{$title} - Boosted Technologies">
+    <meta property="og:site_name" content="Boosted Technologies">
+    <meta property="og:description" content="{if isset($description)} {$description} {else}We are the center for efficient innovations and creations in tech. Our Boosted Tech solutions have helped to improve standards of living for our people in our communities.{/if}">
+    <meta property="og:image" content="{if isset($og_img)} {$og_img}{else}https://{$smarty.server.SERVER_NAME}/assets/og-image.jpg{/if}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
 
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<style>
-    .flag-top-position {
-        position: absolute;
-        margin-top: 5px
-    }
-    .flag {
-        background: #f7b80e ;
-        height: 15px;
-        width: 100%;
-        border-top: 5px solid #1e203a;
-        border-bottom: 5px solid #117ec4
-    }
-</style>
+    <meta name="author" content="Tumusiime ashiraff https://www.tumusiime.boostedtechs.com" />
+    <meta name="keywords" content="Boosted Technologies, Boosted Technologies LTD, git aFree hosting, Free .COM domain, Free .ORG domain, Technology for development, Boosted technology for development, Technology news, cheap data analysis, cheap web design, free hosting, cheap graphics design, cheap digital marketing, cheap web cloud hosting, Boosted, Technologies, Boosted Technologies Uganda, Tumusiime, Tumusiime Ashiraff, Ashan, Betty Happy, Devmate, Boasted Technologies, Boasted Technologies Uganda, Digital marketing in uganda, Boo store, Booo store, Digital marketing, Web development in Uganda, Professional web developers"/>
+    <meta name="description" content="{if isset($description)} {$description} {else}We are Technology for development specialists that design and implement scalable, sustainable and on demand driven scientific solutions to address simple, moderate and complex challenges in our communities using pieces of software codes and hardware components to come up with such mindblowing solutions.{/if}"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2L663WVRE"></script>
+    <script>
+        {literal}
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-B2L663WVRE');
+        {/literal}
+    </script>
 </head>
+
 <body>
 
-<!-- LOADER -->
-<div id="preloader">
-    <div class="loader">
-        <div class="loader__bar"></div>
-        <div class="loader__bar"></div>
-        <div class="loader__bar"></div>
-        <div class="loader__bar"></div>
-        <div class="loader__bar"></div>
-        <div class="loader__ball"></div>
-    </div>
-    <img src="//{$smarty.server.SERVER_NAME}/assets/images/logos/logo-square.png" style="width:200px;"/>
-</div><!-- end loader -->
-<!-- END LOADER -->
+<div class="page-wrapper">
 
-<div class="top-bar">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="left-top">
-                    <div class="email-box">
-                        <a href="mailto:office@boostedtechs.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> office@boostedtechs.com</a>
-                    </div>
-                    <div class="phone-box">
-                        <a href="tel:+256759800742"><i class="fa fa-phone" aria-hidden="true"></i> +256 759 800742, <strike>+256 788 018846</strike></a>
-                    </div>
+    <!-- Main Header-->
+    <header class="main-header {if $page != "home"}header-style-four{else}header-style-two{/if}">
+        <!-- Header top -->
+        <div class="header-top">
+            <div class="inner-container">
+                <div class="top-left">
+                    <ul class="contact-list clearfix">
+                        <li><a href="#"><i class="fa fa-envelope"></i>office@boostedtechs.com</a></li>
+                        <li><i class="fa fa-map-marker-alt"></i>S.A Fridausi - Bwaise - Kampala</li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="right-top">
-                    <div class="social-box">
-                        <ul>
-                            <li><a target="_blank" href="https://www.facebook.com/boostedtechnologies/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/boosted_technologies?r=nametag"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a target="_blank" href="mailto:office@boostedtechs.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/boosted_techs"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                            <li><a target="_blank" href="tel:+256759800742"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/company/boosted-technologies-ug-ltd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <ul>
-                    </div>
+                <div class="top-right">
+                    <ul class="social-icon-one">
+                        <li><a href="https://www.facebook.com/boostedtechnologies/" target="_blank"><span class="fab fa-facebook-f text-dark"></span></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/company/boosted-technologies-ug-ltd/"><span class="fab fa-linkedin-in text-dark"></span></a></li>
+                        <li><a target="_blank" href="https://twitter.com/boosted_techs"><span class="fab fa-twitter text-dark"></span></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/boosted_technologies?r=nametag"><span class="fab fa-instagram text-dark"></span></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCyKTHdnhDeLxwLzIvBm7n2A"><span class="fab fa-youtube text-dark"></span></a></li>
+
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<header class="header header_style_01">
-    <nav class="megamenu navbar navbar-default padding-reduce">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="//{$smarty.server.SERVER_NAME}"><img src="//{$smarty.server.SERVER_NAME}/assets/images/logos/logo-square.png" width="80" alt="image"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="home" href="//{$smarty.server.SERVER_NAME}">Home</a></li>
-                    <li><a class="about-us" href="//{$smarty.server.SERVER_NAME}/about-us">About us</a></li>
-                    <li><a  href="https://www.devmate.boostedtechs.com">DevMate</a></li>
-                    <li><a  href="https://www.academy.boostedtechs.com">Academy</a></li>
-                    <li><a  href="https://www.booo.store">Store</a></li>
-                    {*<li><a class="services" href="//{$smarty.server.SERVER_NAME}/services">Our Services</a></li>*}
-                    <li><a class="port" href="//{$smarty.server.SERVER_NAME}/portfolio">Portfolio</a></li>
-                    <li><a href="https://blog.boostedtechs.com" target="_blank">Blog</a></li>
-                    <li><a href="//{$smarty.server.SERVER_NAME}/internship">Internship</a></li>
-                    <li><a class="live" href="//{$smarty.server.SERVER_NAME}/live">Live TV</a></li>
-                    <li><a class="contact-us" href="//{$smarty.server.SERVER_NAME}/contact-us">Contact us</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="flag flag-top-position"></div>
-    </nav>
-</header>
-{block name="body"}{/block}
-<div style="text-align: center; background: #f2f3f5">
-    <img src="//{$smarty.server.SERVER_NAME}/assets/images/logos/logo-square.png" style="width:50px" alt="" />
-</div>
-<div class="flag"></div>
-<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.jpg');">
-    <div class="container">
-        <div class="section-title text-center">
-            <h3>Testimonials</h3>
-            <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Boosted Technologies</p>
-        </div><!-- end title -->
+        <!-- End Header Top -->
 
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="testi-carousel owl-carousel owl-theme">
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Maintenance done timely</h3>
-                            <p class="lead">I did not need to learn code to get my website up. I all needed was Boosted Technologies to get me there.</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/ashlandtaxi.png" alt="" class="img-responsive alignleft">
-                            <h4>Osman<small>- Founder @Ashland Taxi</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <!-- end testimonial -->
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Timely delivery!</h3>
-                            <p class="lead">They have got my Logos done in time</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/logo/nest.jpg" alt="" class="img-responsive alignleft">
-                            <h4>Albert <small>- The Nest</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <!-- end testimonial -->
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i>Quality works!</h3>
-                            <p class="lead">I didnt not expect these people to provide such quality works. I appreciate their skills</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/logo/rino.jpg" alt="" class="img-responsive alignleft">
-                            <h4>Albert <small>- Rhino Athletics Club</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <!-- end testimonial -->
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Cool customer care</h3>
-                            <p class="lead">They really have a cool customer care. I love working with them</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/logo/ckwel.jpg" alt="" class="img-responsive alignleft">
-                            <h4>Christine <small>- Manager @Ckwel Fashions</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <!-- end testimonial -->
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Service above self</h3>
-                            <p class="lead">Indeed it is boosted technologies. On point solutions to my business needs. I love the labels they did designed for me. They attract more clients</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/logo/elohim.jpg" alt="" class="img-responsive alignleft">
-                            <h4>Mary B <small>- Founder @Elohim Bubbles</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Proper Social media Management</h3>
-                            <p class="lead">Partnering with Boosted Technologies to manage my social media has been fruitful</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/logo/thezaks.jpg" alt="" class="img-responsive alignleft">
-                            <h4>ZAKS <small>- Founder @The Zaks Investments</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <!-- end testimonial -->
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Satisfied client</h3>
-                            <p class="lead">I gave them my business, i got the results i needed. Kudos</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/kia.png" alt="" class="img-responsive alignleft">
-                            <h4>Kintu Jovia<small>- Founder @Kia Cosmetics</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                    <div class="testimonial clearfix">
-                        <div class="desc">
-                            <h3><i class="fa fa-quote-left"></i> Excellent Services</h3>
-                            <p class="lead">Need the best services? Boosted Technologies is your answer. Try them, you will not regret it</p>
-                        </div>
-                        <div class="testi-meta">
-                            <img src="//{$smarty.server.SERVER_NAME}/assets/uploads/devmate.png" alt="" class="img-responsive alignleft">
-                            <h4>Happy Betty</h4>
-                        </div>
-                        <!-- end testi-meta -->
-                    </div>
-                </div><!-- end carousel -->
-            </div><!-- end col -->
-        </div><!-- end row -->
+        <!-- Main box -->
+        <div class="main-box">
+            <div class="menu-box">
+                <div class="logo">
+                    <a href="//{$smarty.server.SERVER_NAME}" class="main-logo"><img src="//{$smarty.server.SERVER_NAME}/assets/images/{if $page != "home"}logo-5.png{else}logo-5.png{/if}" alt="" title="" ></a>
+                    <a href="//{$smarty.server.SERVER_NAME}" class="sticky-logo"><img src="//{$smarty.server.SERVER_NAME}/assets/images/logo-5.png" alt="" title="" ></a>
+                </div>
 
-        <hr class="hr1">
+                <!--Nav Box-->
+                <div class="nav-outer">
+                    <!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-md navbar-light">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navigation clearfix">
+                                <li class="home">
+                                    <a href="//{$smarty.server.SERVER_NAME}"><span>Home</span></a>
+                                </li>
+                                <li class="about-us"><a href="//{$smarty.server.SERVER_NAME}/about-us">About</a></li>
+                                <li class="projects"><a href="//{$smarty.server.SERVER_NAME}/projects">Projects</a></li>
+                                <li class="internship"><a href="//{$smarty.server.SERVER_NAME}/internship">Internship</a></li>
+                                <li class="why"><a href="//{$smarty.server.SERVER_NAME}/why-choose-us">Why us</a></li>
+                                <li class="tv"><a href="//{$smarty.server.SERVER_NAME}/live">TV</a></li>
+                                <li class="contact-us"><a href="//{$smarty.server.SERVER_NAME}/contact-us">Contacts</a></li>
+                                <li class="dropdown more">
+                                    <a href="#"><span>More</span></a>
+                                    <ul>
+                                        <li><a class="offers" href="//{$smarty.server.SERVER_NAME}/offers">Offers</a></li>
+                                        <li><a class="career" href="//{$smarty.server.SERVER_NAME}/career">Career</a></li>
+                                        <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#mission-statement">Mission Statement</a></li>
+                                        <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#vision-statement">Vision statement</a></li>
+                                        <li><a href="//store.boostedtechs.com">Boo store</a></li>
+                                        <li><a href="//blog.boostedtechs.com">Blog</a></li>
+                                        <li><a href="//www.academy.boostedtechs.com">Boosted Academy</a></li>
+                                        <li><a href="//www.auth.boostedtechs.com">Boosted Auth</a></li>
+                                        <li><a href="https://www.tumusii.me">Tumusiime Ashiraff</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Main Menu End-->
+                </div>
 
-        <div class="row logos">
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/ckwel.jpg" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="https://ashlandtaxi.com"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/ashlandtaxi.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/the-zaks.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="https://booo.store/supplier/kiacosmeticsug"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/kia.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/elohim.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/nest.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/rino.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="https://somaafrica.com"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/soma.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="https://booo.store"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/boostore.png" alt="" class="img-repsonsive"></a>
-            </div>
-            <div class="col-md-2 mt-2 mb-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="https://devmate.boostedtechs.com"><img src="//{$smarty.server.SERVER_NAME}/assets/uploads/devmate.png" alt="" class="img-repsonsive"></a>
-            </div>
-        </div><!-- end row -->
+                <div class="outer-box">
 
-    </div><!-- end container -->
-</div><!-- end section -->
-
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="widget clearfix">
-                    <div class="widget-title">
-                        <img src="//{$smarty.server.SERVER_NAME}/assets/images/logos/logo-square.png" alt="" />
-                    </div>
-                    <p>
-                        Contact us<br/>
-                        Email: office@boostedtechs.com
-                        <br/>
-                        Phone: +256759800742, +256 757074590, <strike>+256 788 018846</strike>
-                        <br/>
-                        Location: Buziga - Kampala (U)
-                        <br/>
-                        P.O BOX 36904 KAMPALA (U)
-                    </p>
-                </div><!-- end clearfix -->
-            </div><!-- end col -->
-
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="widget clearfix">
-                    <div class="widget-title">
-                        <h3>Pages</h3>
+                    <div class="service_wrapper">
+                        <span class="icon flaticon-whatsapp"></span>
+                        <p>Whatsapp us</p>
+                        <h4>+256 705098174</h4>
                     </div>
 
-                    <ul class="footer-links hov">
-                        <li><a href="#">Home <span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="https://cocis.boostedtechs.com">Blog <span class="icon icon-arrow-right2"></span></a></li>
-                        {*<li><a href="//{$smarty.server.SERVER_NAME}/pricing">Pricing <span class="icon icon-arrow-right2"></span></a></li>*}
-                        <li><a href="//{$smarty.server.SERVER_NAME}/about-us">About <span class="icon icon-arrow-right2"></span></a></li>
-                        {*<li><a href="#">Faq <span class="icon icon-arrow-right2"></span></a></li>*}
-                        <li><a href="https://cocis.boostedtechs.com" target="_blank">Blog</a></li>
-                        <li><a href="//{$smarty.server.SERVER_NAME}/contact-us">Contact <span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="https://www.devmate.boostedtechs.com">DevMate for Boosted Techs<span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="https://www.academy.boostedtechs.com">Boosted Academy<span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="https://www.booo.store">Boo Store<span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="//{$smarty.server.SERVER_NAME}/quote">Quotation <span class="icon icon-arrow-right2"></span></a></li>
-                    </ul><!-- end links -->
-                </div><!-- end clearfix -->
-            </div><!-- end col -->
-
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="footer-distributed widget clearfix">
-                    <div class="widget-title">
-                        <h3>Subscribe</h3>
-                        <p>Be the first in the know when updates or something new has come up. Subscribe to our newsletter and updates</p>
-                    </div>
-
-                    <div class="footer-right">
-                        <form method="post" action="#">
-                            <span class="subscription"></span>
-                            <input id="subscription_email" placeholder="Subscribe our newsletter.." name="email">
-                            <i class="fa fa-envelope-o" id="subscribe""></i>
-                        </form>
-                    </div>
-
-                    <div class="col-md-12" style="margin-top: 20px; border-radius: 40px; max-height: 200px; overflow-y: scroll">
-                        <a class="twitter-timeline" href="https://twitter.com/boosted_techs?ref_src=twsrc%5Etfw">Tweets by boosted_techs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div><!-- end clearfix -->
-            </div><!-- end col -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</footer><!-- end footer -->
-
-<div class="copyrights">
-    <div class="container">
-        <div class="footer-distributed">
-            <div class="footer-left">
-                <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="//{$smarty.server.SERVER_NAME}">Boosted Technologies</a> Design By :
-                    <a href="https://www.devmate.boostedtechs.com">DevMate</a></p>
+                    <!-- Search Btn -->
+                    {*<div class="search-box">*}
+                        {*<button class="search-btn"><i class="fa fa-search"></i></button>*}
+                    {*</div>*}
+                </div>
             </div>
         </div>
-    </div><!-- end container -->
-</div><!-- end copyrights -->
 
-<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="main-box">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div><!-- End Sticky Menu -->
 
-<!-- ALL JS FILES -->
-<script src="//{$smarty.server.SERVER_NAME}/assets/js/all.js"></script>
-<!-- ALL PLUGINS -->
-<script src="//{$smarty.server.SERVER_NAME}/assets/js/custom.js"></script>
-<script src="//{$smarty.server.SERVER_NAME}/assets/js/portfolio.js"></script>
-<script src="//{$smarty.server.SERVER_NAME}/assets/js/hoverdir.js"></script>
+        <!-- Mobile Header -->
+        <div class="mobile-header">
+            <div class="logo"><a href="//{$smarty.server.SERVER_NAME}"><img src="//{$smarty.server.SERVER_NAME}/assets/images/logo-5.png" alt="" title="" ></a></div>
+
+            <!--Nav Box-->
+            <div class="nav-outer clearfix">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div>
+
+        <!-- Mobile Sticky Header -->
+        <div class="mobile-sticky-header">
+            <div class="logo"><a href="//{$smarty.server.SERVER_NAME}"><img src="//{$smarty.server.SERVER_NAME}/assets/images/logo-5.png" alt="" title="" ></a></div>
+
+            <!--Nav Box-->
+            <div class="nav-outer clearfix">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <span class="mobile-menu-back-drop"></span>
+            <div class="menu-outer">
+                <nav class="menu-box">
+                    <div class="nav-logo"><a href="//{$smarty.server.SERVER_NAME}"><img src="//{$smarty.server.SERVER_NAME}/assets/images/logo-5.png" alt="" title="" ></a></div><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </nav>
+
+                {*<div class="menu-search">*}
+                    {*<form method="post" action="blog-checkerboard.html">*}
+                        {*<div class="form-group">*}
+                            {*<input type="text" class="input" name="search-field" value="" placeholder="Search..." required="">*}
+                            {*<button type="submit"><i class="fa fa-search"></i></button>*}
+                        {*</div>*}
+                    {*</form>*}
+                {*</div>*}
+            </div>
+        </div><!-- End Mobile Menu -->
+
+        <!-- Header Search -->
+        <div class="search-popup">
+            <span class="search-back-drop"></span>
+
+            <div class="search-inner">
+                <div class="auto-container">
+                    <div class="upper-text">
+                        <div class="text">Search for anything.</div>
+                        <button class="close-search"><span class="fa fa-times"></span></button>
+                    </div>
+
+                    <form method="post" action="blog-checkerboard.html">
+                        <div class="form-group">
+                            <input type="search" name="search-field" value="" placeholder="Search..." required="">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Search -->
+
+    </header>
+    <!--End Main Header -->
+
+    {block name="body"}{/block}
+
+    <!-- Call to Action -->
+    <section class="call-to-action" style="background-image: url(//{$smarty.server.SERVER_NAME}/assets/images/background/4.jpg);">
+        <div class="auto-container">
+            <div class="content">
+                <div class="sec-title-two">
+                    <span class="icon flaticon-question-1"></span>
+                    <h3>Communicate with us</h3>
+                    <div class="text">Ping us, we pong back always.</div>
+                </div>
+
+                <div class="btn-box">
+                    <a href="//{$smarty.server.SERVER_NAME}/contact-us" class="theme-btn icon-btn-two"><span>Get help here</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call to Action -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="auto-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row">
+                    <div class="big-column col-xl-8 col-lg-12 col-md-12">
+                        <div class="row">
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-3 col-md-12 col-sm-12">
+                                <div class="logo"><a href="#"><img src="//{$smarty.server.SERVER_NAME}/assets/images/logo.png" alt=""></a></div>
+                            </div>
+
+                            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Quick Links</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us">About us</a></li>
+                                            <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#mission-statement">Mission Statement</a></li>
+                                            <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#vision-statement">Vision statement</a></li>
+                                            <li><a class="why-us" href="//{$smarty.server.SERVER_NAME}/why-choose-us">Why Boosted?</a></li>
+                                            <li><a class="offers" href="//{$smarty.server.SERVER_NAME}/offers">Offers</a></li>
+                                            <li><a href="//{$smarty.server.SERVER_NAME}/internship">Internship</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Page Links</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a class="services" href="//{$smarty.server.SERVER_NAME}/projects">Projects</a></li>
+                                            <li><a class="career" href="//{$smarty.server.SERVER_NAME}/career">Career</a></li>
+                                            <li><a class="live" href="//{$smarty.server.SERVER_NAME}/live">Live TV</a></li>
+                                            <li><a class="about-us" href="//{$smarty.server.SERVER_NAME}/about-us">About</a></li>
+                                            <li><a class="services" href="//{$smarty.server.SERVER_NAME}/services">Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Page Links</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="//{$smarty.server.SERVER_NAME}/portfolio"><span>Portfolio</span></a></li>
+                                            <li><a href="https://blog.boostedtechs.com">Blog</a></li>
+                                            <li><a href="https://www.academy.boostedtechs.com">Boosted Academy</a></li>
+                                            <li><a href="https://www.store.boostedtechs.com">Boo Store</a></li>
+                                            <li><a href="https://tumusii.me">Tumusiime Ashiraff</a></li>
+                                            <li><a href="//www.auth.boostedtechs.com">Boosted Auth</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="big-column col-xl-4 col-lg-12 col-md-12">
+                        <div class="row">
+                            <div class="footer-column col-lg-12 col-md-12 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Subscribe</h2>
+                                    <div class="widget-content">
+                                        <div class="newsletter-form">
+                                            <form method="post" action="#" id="subscribe-form">
+                                                <div class="form-group"><div class="response"></div></div>
+                                                <div class="form-group">
+                                                    <input type="email" name="email" class="email" value="" placeholder="Enter your email address.." required>
+                                                    <button type="button" id="subscribe-newslatters" class="theme-btn"><i class="flaticon-arrow-pointing-to-right"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call Us -->
+            <div class="call-us">
+                <div class="service-num">
+                    <a href="#"><i class="fa fa-phone-square"></i>+256 705 098 174</a>
+                    &nbsp; &nbsp;<a href="#"><i class="fa fa-envelope"></i>office@boostedtechs.com</a>
+                </div>
+                <div class="social-link">
+                    <a target="_blank" href="https://www.facebook.com/boostedtechnologies/"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank " href="https://www.linkedin.com/company/boosted-technologies-ug-ltd/"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://twitter.com/boosted_techs"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/boosted_technologies?r=nametag"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCyKTHdnhDeLxwLzIvBm7n2A"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bottom-->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="copyright-text">© {$smarty.now|date_format:"%Y"} Feedback is the breakfast of champions at Boosted Technologies LTD - Email:office@boostedtechs.com</div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Main Footer -->
+
+</div><!-- End Page Wrapper -->
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-arrow-up"></span></div>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/jquery.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/popper.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/bootstrap.min.js"></script>
+<!--Revolution Slider-->
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/main-slider-script.js"></script>
+<!--Revolution Slider-->
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/jquery.fancybox.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/owl.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/wow.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/appear.js"></script>
+<script src="//{$smarty.server.SERVER_NAME}/assets/js/script.js"></script>
+
 <script>
-    $(".{$page}").addClass("active");
+    $(".{$page}").addClass("current");
 </script>
 <script type="text/javascript">
     {literal}

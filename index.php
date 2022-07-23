@@ -1,4 +1,9 @@
 <?php
+//if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
+//    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
+//    //Prevent the rest of the script from executing.
+//    exit;
+//}
 /*
  * This file is the controlling file of our software
  * Every request made to the app is redirected to the index file that processes it to the requested class through the
@@ -328,3 +333,6 @@ function map_uri_to_method($routes, $args, $args_array) {
     </div>
     <?php
 }
+
+
+

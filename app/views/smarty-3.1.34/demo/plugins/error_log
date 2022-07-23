@@ -1,0 +1,2 @@
+[19-Apr-2022 08:41:49 America/New_York] PHP Warning:  Undefined variable $_SERVER in /home/risiequh/boostedtechs.com/app/views/smarty-3.1.34/demo/plugins/cacheresource.mysqls.php on line 29
+[19-Apr-2022 08:41:50 America/New_York] PHP Warning:  Undefined variable $_SERVER in /home/risiequh/boostedtechs.com/app/views/smarty-3.1.34/demo/plugins/cacheresource.mysqls.php on line 29

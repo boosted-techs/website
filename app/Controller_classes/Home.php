@@ -14,6 +14,7 @@ class Home extends Controller_class
     }
 
     function index() {
+        $this->session->set_user_data("home", rand(100, 600));
         $this->smarty->assign("title", "");
         $this->smarty->assign("page", "home");
         $this->smarty->display("home.tpl");
@@ -40,7 +41,7 @@ class Home extends Controller_class
 
     function services() {
         $this->smarty->assign("title", "services for ");
-        $this->smarty->assign("page", "services");
+        $this->smarty->assign("page", "more");
         $this->smarty->display("services.tpl");
     }
 
@@ -55,47 +56,44 @@ class Home extends Controller_class
     }
 
     function send_message() {
-//        $names = strip_tags(trim($_POST['first_name'])) . " " . $_POST['last_name'];
-//        $message = strip_tags(trim($_POST['comments']));
-//        $phone = strip_tags(trim($_POST['phone']));
-//        $from = strip_tags(trim($_POST['email']));
-//        $service = strip_tags($_POST['select_service']);
-//
-//        $token = $this->session->data("token");
-//
-//        if (empty($token))
-//            die(print("Error"));
-//
-//        if (strcmp($token, $this->input->get("token")) != 0)
-//            die(print("Error"));
-//
-//        if(empty($names) or empty($message) or empty($phone) or empty($from)){
-//            echo "Message you could not be sent. Make sure all fields are selected";
-//            return false;
-//        }
-//
-//        $subject = "Message from " . $names;
-//
-//        $message  = $message . "<br/>Service: " . $service ."<br/>Phone: " . $phone;
-//        $headers = "MIME-Version: 1.0" . "\r\n";
-//        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-//        $headers .= "From:". $from . "\r\n";
-//
-//        $to = "office@boostedtechs.com";
-//
-//        try {
-//            mail($to, $subject, $message, $headers);
-//
-//            $headers = "MIME-Version: 1.0" . "\r\n";
-//            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-//            $headers .= "From: admin@boostedtechs.com \r\n";
-//            $message = "Hello, $names, you message has been received";
-//            mail($from, "Message received", $message, $headers);
-//        }
-//        catch(Exception $e){
-//
-//        };
-//        echo "We have received your message. Thank you for contacting us";
+        if (empty($this->session->data("home")))
+            exit;
+        $names = strip_tags(trim($_POST['firstname'])) . " " . $_POST['lastname'];
+        $message = strip_tags(trim($_POST['inquiry']));
+        $phone = strip_tags(trim($_POST['phone']));
+        $from = strip_tags(trim($_POST['email']));
+        $message .= "<hr/>" . strip_tags(trim($_POST['message']));
+
+        if(empty($names) or empty($message) or empty($phone) or empty($from)){
+            echo "Message you could not be sent. Make sure all fields are selected";
+            return false;
+        }
+
+        $subject = "Message from " . $names;
+
+        $message  = $message . "<br/>Service: " . $message ."<br/>Phone: " . $phone;
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $headers .= "From:". $from . "\r\n";
+
+        $to = "webmails@boostedtechs.com";
+
+        try {
+            //mail($to, $subject, $message, $headers);
+
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= "From: admin@boostedtechs.com \r\n";
+            $message = "Hello, $names, you inquiry has been received";
+            //mail($from, "Message received", $message, $headers);
+        }
+        catch(Exception $e){
+
+        };
+        echo "<script>
+                alert('Hello $names, your inquiry has been set to our support desk. Our team is to get back to you as soon as we can')
+                window.location = '" . $this->server->http_refer . "'
+                </script>";
     }
 
     function subscribe() {
@@ -116,7 +114,7 @@ class Home extends Controller_class
         $to = "admin@boostedtechs.com";
 
         try {
-            mail($to, $subject, $message, $headers);
+            //mail($to, $subject, $message, $headers);
 
             $subject = "Thank you for subscribing";
 
@@ -124,7 +122,7 @@ class Home extends Controller_class
             $headers = "MIME-Version: 1.0" . "\r\n";
             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
             $headers .= "From:admin@boostedtechnologies.com\r\n";
-            mail($from, $subject, $message, $headers);
+            //mail($from, $subject, $message, $headers);
         }
         catch(Exception $e){
 
@@ -134,7 +132,7 @@ class Home extends Controller_class
 
     function live() {
         $this->smarty->assign("title", "Live TV");
-        $this->smarty->assign("page", "live");
+        $this->smarty->assign("page", "tv");
         $this->smarty->display("live.tpl");
     }
 
@@ -149,37 +147,60 @@ class Home extends Controller_class
     function applications() {
         $this->smarty->assign("og_img", "https://lh4.googleusercontent.com/F3TjbhrdOfRh6dY-5BwP3RmOcOK7HP1QIoavWe2dMWMli0x_2mjyZhHGp1AZImfrDrEM66I-NpSLthiydjxF3q9BcqGu9ScDLI5cddO9xPiDnGEQGzReN5mqqfqg420Dtg=w740");
         $this->smarty->assign("title", "Internships");
-        $this->smarty->assign("page", "Internships");
+        $this->smarty->assign("page", "internship");
         $this->smarty->display("applications.tpl");
     }
 
     function quotation() {
         $this->smarty->assign("og_img", "https://lh3.googleusercontent.com/iHuNNePqRTeKN_6ulCK5uSw_IbZnp3lu9Jo_JydHz-J76HdQIUoLS4cKNRc0DWdCyU655i7Jqe2lgDWu3wnTfEWy2C-XQjA1PER0x7g1mutFgSDcgyYn_FfdXqg9v1THiQ=w1000");
         $this->smarty->assign("title", "Quotation");
-        $this->smarty->assign("page", "Quotation");
+        $this->smarty->assign("page", "more");
         $this->smarty->display("quotation.tpl");
     }
 
-    function html() {
-        $this->load_view("html");
+    function service_details($service) {
+        $this->smarty->assign("title", ucfirst(str_replace("-", " ", $service)) . " - ");
+        $this->smarty->assign("page", "more");
+        $this->smarty->assign("service", $service);
+        $this->smarty->display("service.tpl");
     }
 
-    function form_processor() {
-
-        /*
-         * <?php
-         *
-         *
-         * ?>
-         */
-
-        /*
-         * GET
-         * POST
-         */
-        //print_r($_POST);
-        print_r($_GET);
-
-
+    function why_choose_us() {
+        $this->smarty->assign("title", "Why choose ");
+        $this->smarty->assign("page", "why");
+        $this->smarty->display("why-us.tpl");
     }
+
+    function career() {
+        $this->smarty->assign("title", "Career ");
+        $this->smarty->assign("og_img", "https://www.boostedtechs.com/assets/images/resource/human-resource.jpg");
+        $this->smarty->assign("description", "Working at Boosted Technologies LTD, Kampala, Uganda goes far beyond just having a job to make ends meet. With a job at our company, you have exciting new possibilities to follow your curiosity wherever it takes you.");
+        $this->smarty->assign("page", "more");
+        $this->session->set_user_data("career", rand(100, 400));
+        $this->smarty->display("career.tpl");
+    }
+
+    function offers() {
+        $this->session->set_user_data("home", rand(100, 600));
+        $this->smarty->assign("og_img", "https://www." . $this->server->server_name . "/assets/images/gallery/page-advert.jpg");
+        $this->smarty->assign("description", "Get 1 year free hosting with a free .com or .org domain, free android App and a website with Boosted Technologies. Great Offer");
+        $this->smarty->assign("title", "Hot deals with ");
+        $this->smarty->assign("page", "more");
+        $this->smarty->display("offers.tpl");
+    }
+
+    function job_application() {
+        if (empty($this->session->data("career")))
+            header("location:../career");
+        $this->smarty->assign("title", "Job application");
+        $this->smarty->assign("page", "more");
+        $this->smarty->display("job_application_form.tpl");
+    }
+
+function verify() {
+        $this->smarty->assign("title", "ID VERIFICATION PAGE");
+        $this->smarty->assign("page", "more");
+        $this->smarty->display("verify.tpl");
+    }
+
 }

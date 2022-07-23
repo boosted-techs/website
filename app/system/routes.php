@@ -44,18 +44,21 @@
 $route['']                                  =                               "Home/index";
 $route['about-us']                          =                               "Home/about_us";
 $route['apply']                             =                               "Home/applications";
+$route['career']                            =                               "Home/career";
+$route['career/apply']                      =                               "Home/job_application";
 $route['contact-us']                        =                               "Home/contact_us";
 $route['core']                              =                               "Home/core";
 $route['live']                              =                               "Home/live";
 $route['internship']                        =                               "Home/internship";
+$route['offers']                            =                               "Home/offers";
 $route['portfolio']                         =                               "Home/portfolio";
 $route['pricing']                           =                               "Home/pricing";
 $route['quote']                             =                               "Home/quotation";
 $route['send_message']                      =                               "Home/send_message";
 $route['subscribe']                         =                               "Home/subscribe";
 $route['services']                          =                               "Home/services";
+$route['why-choose-us']                     =                               "Home/why_choose_us";
 
-
-$route['class']                             =                               "Home/html";
-$route['form-processor']                    =                               "Home/form_processor";
+$route['services/(:any)']                  =                               "Home/service_details/$1";
+$route['verify']                            =                           "Home/verify";
 
