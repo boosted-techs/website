@@ -25,7 +25,73 @@
                     <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb=""  data-delay="5000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
 
-                        <img src="/assets/images/main-slider/slider-2.jpg" alt="Boosted Office location in Bwaise" title="head" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina>
+                        <img src="/assets/images/main-slider/slide-6.jpg" alt="Boosted Office location in Bwaise" title="head" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <div class="tp-caption"
+                             data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[15,15,15,15]"
+                             data-paddingright="[15,15,15,15]"
+                             data-paddingtop="[0,0,0,0]"
+                             data-responsive_offset="on"
+                             data-type="text"
+                             data-height="none"
+                             data-width="['750','750','750','650']"
+                             data-whitespace="normal"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['-80','-80','-100','-100']"
+                             data-x="['left','left','center','center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['top','top','top','top']"
+                             data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                            <h2 class="small-padding"> </h2>
+                        </div>
+
+                        <div class="tp-caption"
+                             data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[15,15,15,15]"
+                             data-paddingright="[15,15,15,15]"
+                             data-paddingtop="[0,0,0,0]"
+                             data-responsive_offset="on"
+                             data-type="text"
+                             data-height="none"
+                             data-width="['520','520','600','455']"
+                             data-whitespace="normal"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['0','0','0','0']"
+                             data-x="['left','left','center','center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['top','top','top','top']"
+                             data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                            <div class="text small-padding"> </div>
+                        </div>
+
+                        <div class="tp-caption"
+                             data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[15,15,15,15]"
+                             data-paddingright="[15,15,15,15]"
+                             data-paddingtop="[0,0,0,0]"
+                             data-responsive_offset="on"
+                             data-type="text"
+                             data-height="none"
+                             data-whitespace="normal"
+                             data-width="['650','650','650','250']"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['100','100','120','120']"
+                             data-x="['left','left','center','center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['top','top','top','top']"
+                             data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                            <!--   <div class="btn-box">
+                                   <a href="./services" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
+                               </div>
+                               -->
+                        </div>
+                    </li>
+                    <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb=""  data-delay="5000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+
+                        <img src="/assets/images/background/photos/group-boosteds.jpeg" alt="Boosted Office location in Bwaise" title="head" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <div class="tp-caption"
@@ -86,6 +152,72 @@
                                 <a href="./services" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
                             </div>
                             -->
+                        </div>
+                    </li>
+                    <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb=""  data-delay="5000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+
+                        <img src="/assets/images/main-slider/slider-2.jpg" alt="Boosted Office location in Bwaise" title="head" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <div class="tp-caption"
+                             data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[15,15,15,15]"
+                             data-paddingright="[15,15,15,15]"
+                             data-paddingtop="[0,0,0,0]"
+                             data-responsive_offset="on"
+                             data-type="text"
+                             data-height="none"
+                             data-width="['750','750','750','650']"
+                             data-whitespace="normal"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['-80','-80','-100','-100']"
+                             data-x="['left','left','center','center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['top','top','top','top']"
+                             data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                            <h2 class="small-padding"> </h2>
+                        </div>
+
+                        <div class="tp-caption"
+                             data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[15,15,15,15]"
+                             data-paddingright="[15,15,15,15]"
+                             data-paddingtop="[0,0,0,0]"
+                             data-responsive_offset="on"
+                             data-type="text"
+                             data-height="none"
+                             data-width="['520','520','600','455']"
+                             data-whitespace="normal"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['0','0','0','0']"
+                             data-x="['left','left','center','center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['top','top','top','top']"
+                             data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                            <div class="text small-padding"> </div>
+                        </div>
+
+                        <div class="tp-caption"
+                             data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[15,15,15,15]"
+                             data-paddingright="[15,15,15,15]"
+                             data-paddingtop="[0,0,0,0]"
+                             data-responsive_offset="on"
+                             data-type="text"
+                             data-height="none"
+                             data-whitespace="normal"
+                             data-width="['650','650','650','250']"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['100','100','120','120']"
+                             data-x="['left','left','center','center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['top','top','top','top']"
+                             data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                            <!--   <div class="btn-box">
+                                   <a href="./services" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
+                               </div>
+                               -->
                         </div>
                     </li>
 
@@ -295,14 +427,14 @@
                 <div class="case-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/computer-system-installation"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/office-work.jpg" alt="Boosted Technologies computer installation"></a></figure>
-                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_1.png" alt=""></span>
+                            <figure class="image"><a href="/projects/smart-school"><img src="/assets/images/background/photos/smart-school.jpg" alt="Boosted Technologies Smart school Project"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
                         </div>
                         <div class="lower-content">
-                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/computer-system-installation">Office computer ware</a></h4>
-                            <div class="text">Computer system installation, repair and servicing. Printer installation and repair</div>
+                            <h4><a href="/projects/smart-school">Smart School</a></h4>
+                            <div class="text">Just like how homes got an assistant, Schools got a companion. Smart school is an upgrade to Boosted School Management tool developed in 2018 to manage school data, create report cards etc. But well, we can do better tha that.</div>
                             <div class="btn-box">
-                                <a href="//{$smarty.server.SERVER_NAME}/services/computer-system-installation" class="theme-btn icon-btn-one"><span>View</span></a>
+                                <a href="/projects/smart-school" class="theme-btn icon-btn-one"><span>View</span></a>
                             </div>
                         </div>
                     </div>
@@ -312,14 +444,14 @@
                 <div class="case-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/website-and-web-app-development"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/software-development.jpg" alt=""></a></figure>
-                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_2.png" alt="Boosted Web development"></span>
+                            <figure class="image"><a href="/projects/paullah"><img src="/assets/images/background/photos/paullah.jpg" alt="Boosted Paullah"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
                         </div>
                         <div class="lower-content">
-                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/website-and-web-app-development">Web development services</a></h4>
-                            <div class="text">As long as it is concerned with the web, we are here for that exact purpose. We develop, maintain web apps & servers</div>
+                            <h4><a href="/projects/paullah">Paullah</a></h4>
+                            <div class="text">Paullah is a dating app project whose reason for existence is to bring back reality to online dating. Eliminating scam and making it completely free to relate. Love shouldn't be that expensive. Making the online love experience fun is what we live for.</div>
                             <div class="btn-box">
-                                <a href="//{$smarty.server.SERVER_NAME}/services/website-and-web-app-development" class="theme-btn icon-btn-one"><span>View</span></a>
+                                <a href="/projects/paullah" class="theme-btn icon-btn-one"><span>View</span></a>
                             </div>
                         </div>
                     </div>
@@ -329,14 +461,132 @@
                 <div class="case-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="//{$smarty.server.SERVER_NAME}/services/ict-training-for-businesses"><img src="//{$smarty.server.SERVER_NAME}/assets/images/resource/training.jpg" alt=""></a></figure>
-                            <span class="icon_img"><img src="//{$smarty.server.SERVER_NAME}/assets/images/icons/case_icon_3.png" alt="Boosted computer training"></span>
+                            <figure class="image"><a href="/projects/ev-lithium-batteries"><img src="/assets/images/background/photos/motor-cycle.jpg" alt="Boosted EV Lead to Lithium"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
                         </div>
                         <div class="lower-content">
-                            <h4><a href="//{$smarty.server.SERVER_NAME}/services/ict-training-for-businesses">Business ICT training</a></h4>
-                            <div class="text">We are well incapacitated to provide ICT training for business enterprises. Minimise Computer human erros</div>
+                            <h4><a href="/projects/ev-lithium-batteries">Lead Acid to Lithium Batteries for EV</a></h4>
+                            <div class="text">Lead Acid Power batteries do a good job but are not heavy duty. We managed to build lithium cell packs and replaced the lead batteries in Motorbike EVs giving power to travel 144KM from 12KM default.</div>
                             <div class="btn-box">
-                                <a href="//{$smarty.server.SERVER_NAME}/services/ict-training-for-businesses" class="theme-btn icon-btn-one"><span>View</span></a>
+                                <a href="/projects/ev-lithium-batteries" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="/projects/boosted-payments"><img src="/assets/images/background/photos/payments.jpg" alt="Boosted payments"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="/projects/boosted-payments">Boosted Payments and SMS gateway</a></h4>
+                            <div class="text">
+                                Boosted payments and SMS gateway is Boosted's fees collection platform. The software collects money from mobile money apis, credit card apis on behalf of developers. It is the default payments gateway for Boosted's internal projects and plans to open it to the public are underway.
+                            </div>
+                            <div class="btn-box">
+                                <a href="/projects/boosted-payments" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="/projects/boosted-php-library"><img src="/assets/images/background/photos/boosted-php-library.jpg" alt="Boosted PHP Library"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="/projects/boosted-php-library">Boosted PHP Library</a></h4>
+                            <div class="text">
+                                To have more control over our code, Boosted Technologies came up with its internal MVC in PHP. The MVC powers all internal projects that require PHP as a server technology.
+                                The MVC makes use of the MYSQLDB class, Smarty templating engine together with its templating engine. Coding has never been pretty with BPL.
+                            </div>
+                            <div class="btn-box">
+                                <a href="/projects/boosted-php-library" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="/projects/boosted-auth"><img src="/assets/images/background/photos/auth.jpg" alt="Boosted Auth"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="/projects/boosted-auth">Boosted Auth</a></h4>
+                            <div class="text">
+                                To eliminate passwords and more engaging platforms, Boosted developed a central software that manages user access to other softwares in its eco-system.
+                                Boosted Auth authorises access to Boosted Platforms creating passwordless logins. The software is Boosted Payments default signin among others products.
+                            </div>
+                            <div class="btn-box">
+                                <a href="/projects/boosted-auth" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="/projects/boosted-store"><img src="/assets/images/background/photos/boosted-store.jpg" alt="Boosted Store"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="/projects/boosted-store">Boosted Store</a></h4>
+                            <div class="text">
+                                Boosted Store is a super store that is developed to bring back luxury in online shopping with help of Machine Learning and Artificial Intelligence.
+                            </div>
+                            <div class="btn-box">
+                                <a href="/projects/boosted-store" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="/projects/boosted-silent-generator"><img src="/assets/images/background/photos/silent-generator.jpg" alt="Boosted Silent generator"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="/projects/boosted-silent-generator">Silent Generator</a></h4>
+                            <div class="text">
+                                Boosted silent generator is inspired by the success transformation of Lead Batteries EV to Lithium Batteries.
+                            </div>
+                            <div class="btn-box">
+                                <a href="/projects/boosted-silent-generator" class="theme-btn icon-btn-one"><span>View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Block -->
+                <div class="case-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="/projects/boosted-train-a-tech-soldier"><img src="/assets/images/background/photos/group-boosteds.jpeg" alt="Boosted Train a tech soldier"></a></figure>
+                            <span class="icon_img"><img src="/assets/images/logos/boosted.png" alt="Boosted Technologies"></span>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="/projects/boosted-train-a-tech-soldier">Train A Tech soldier Bootcamp</a></h4>
+                            <div class="text">
+                                These are bootcamp organized to pass impactful knowledge to university students in software development, hardware design, Cybersecurity, AI among other fields
+                            </div>
+                            <div class="btn-box">
+                                <a href="/projects/boosted-train-a-tech-soldier" class="theme-btn icon-btn-one"><span>View</span></a>
                             </div>
                         </div>
                     </div>
