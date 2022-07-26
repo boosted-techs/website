@@ -2,11 +2,11 @@
 {block name="body"}
     <section class="page-title" style="background-image: url(//{$smarty.server.SERVER_NAME}/assets/images/background/12-black-bg.jpg);">
         <div class="auto-container">
-            <h1>{$service|replace:"-" : " "|ucwords}</h1>
+            <h1>{$service|replace:"_" : " "|ucwords}</h1>
             <span class="title_divider"></span>
             <ul class="page-breadcrumb">
                 <li><a href="//{$smarty.server.SERVER_NAME}">Home</a></li>
-                <li>{$service|replace:"-" : " "}</li>
+                <li>{$service|replace:"_" : " "}</li>
             </ul>
         </div>
     </section>

@@ -44,6 +44,7 @@
 $route['']                                  =                               "Home/index";
 $route['about-us']                          =                               "Home/about_us";
 $route['apply']                             =                               "Home/applications";
+$route['bootcamp']                          =                               "projects/bootcamp";
 $route['career']                            =                               "Home/career";
 $route['career/apply']                      =                               "Home/job_application";
 $route['contact-us']                        =                               "Home/contact_us";
@@ -59,6 +60,8 @@ $route['subscribe']                         =                               "Hom
 $route['services']                          =                               "Home/services";
 $route['why-choose-us']                     =                               "Home/why_choose_us";
 
-$route['services/(:any)']                  =                               "Home/service_details/$1";
+$route['projects']                          =                               "Projects/index";
+$route['projects/(:any)']                   =                               "Projects/index/$1";
+$route['services/(:any)']                   =                               "Home/service_details/$1";
 $route['verify']                            =                           "Home/verify";
 

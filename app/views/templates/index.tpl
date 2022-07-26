@@ -29,8 +29,8 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <meta name="author" content="Tumusiime ashiraff https://www.tumusiime.boostedtechs.com" />
-    <meta name="keywords" content="Boosted Technologies, Boosted Technologies LTD, git aFree hosting, Free .COM domain, Free .ORG domain, Technology for development, Boosted technology for development, Technology news, cheap data analysis, cheap web design, free hosting, cheap graphics design, cheap digital marketing, cheap web cloud hosting, Boosted, Technologies, Boosted Technologies Uganda, Tumusiime, Tumusiime Ashiraff, Ashan, Betty Happy, Devmate, Boasted Technologies, Boasted Technologies Uganda, Digital marketing in uganda, Boo store, Booo store, Digital marketing, Web development in Uganda, Professional web developers"/>
-    <meta name="description" content="{if isset($description)} {$description} {else}We are Technology for development specialists that design and implement scalable, sustainable and on demand driven scientific solutions to address simple, moderate and complex challenges in our communities using pieces of software codes and hardware components to come up with such mindblowing solutions.{/if}"/>
+    <meta name="keywords" content="Boosted Technologies, Boosted Technologies LTD,  Technology for development, Boosted technology for development, Tumusiime Ashiraff, Boosted Academy, Silent generator, Paullah, Boosted PHP Library, Boosted Payments and SMS gateway, SMS gateways in Uganda, Payments gateways in Uganda, lithium Battery packs, EV motorcycles upgrades, Boosted silent generator, silent generator, Boosted internship, internship opportunities"/>
+    <meta name="description" content="{if isset($description)} {$description} {else}We are Technology for development specialists that design and implement scalable, sustainable and on demand driven scientific solutions to address simple, moderate and complex challenges in our communities using pieces of software codes and hardware components to come up with such mind blowing solutions.{/if}"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2L663WVRE"></script>
     <script>
@@ -246,6 +246,7 @@
                                             <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#vision-statement">Vision statement</a></li>
                                             <li><a class="why-us" href="//{$smarty.server.SERVER_NAME}/why-choose-us">Why Boosted?</a></li>
                                             <li><a class="offers" href="//{$smarty.server.SERVER_NAME}/offers">Offers</a></li>
+                                            <li><a class="more" href="//{$smarty.server.SERVER_NAME}/bootcamp">BootCamp</a></li>
                                             <li><a href="//{$smarty.server.SERVER_NAME}/internship">Internship</a></li>
                                         </ul>
                                     </div>
