@@ -44,7 +44,7 @@
 $route['']                                  =                               "Home/index";
 $route['about-us']                          =                               "Home/about_us";
 $route['apply']                             =                               "Home/applications";
-$route['bootcamp']                          =                               "projects/bootcamp";
+$route['bootcamp']                          =                               "Projects/bootcamp";
 $route['career']                            =                               "Home/career";
 $route['career/apply']                      =                               "Home/job_application";
 $route['contact-us']                        =                               "Home/contact_us";
