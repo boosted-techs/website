@@ -4,31 +4,31 @@
     <meta charset="utf-8">
     <title>{$title} Boosted Technologies - Inspired by innovations</title>
     <!-- Stylesheets -->
-    <link href="//{$smarty.server.SERVER_NAME}/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
-    <link href="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
-    <link href="//{$smarty.server.SERVER_NAME}/assets/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+    <link href="/assets/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+    <link href="/assets/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
 
-    <link href="//{$smarty.server.SERVER_NAME}/assets/css/style.css" rel="stylesheet">
-    <link href="//{$smarty.server.SERVER_NAME}/assets/css/responsive.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/responsive.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="//{$smarty.server.SERVER_NAME}/assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="//{$smarty.server.SERVER_NAME}/assets/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="//{$smarty.server.SERVER_NAME}/assets/js/respond.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="/assets/js/respond.js"></script><![endif]-->
 
     <meta property="og:title" content="{$title} - Boosted Technologies">
     <meta property="og:site_name" content="Boosted Technologies">
     <meta property="og:description" content="{if isset($description)} {$description} {else}We are the center for efficient innovations and creations in tech. Our Boosted Tech solutions have helped to improve standards of living for our people in our communities.{/if}">
-    <meta property="og:image" content="{if isset($og_img)} {$og_img}{else}https://{$smarty.server.SERVER_NAME}/assets/og-image.jpg{/if}">
+    <meta property="og:image" content="{if isset($og_img)} {$og_img}{else}https://{$smarty.server.SERVER_NAME}/assets/og-image-2.jpg{/if}">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
 
-    <meta name="author" content="Tumusiime ashiraff https://www.tumusiime.boostedtechs.com" />
+    <meta name="author" content="Tumusiime ashiraff https://www.tumusii.me" />
     <meta name="keywords" content="Boosted Technologies, Boosted Technologies LTD,  Technology for development, Boosted technology for development, Tumusiime Ashiraff, Boosted Academy, Silent generator, Paullah, Boosted PHP Library, Boosted Payments and SMS gateway, SMS gateways in Uganda, Payments gateways in Uganda, lithium Battery packs, EV motorcycles upgrades, Boosted silent generator, silent generator, Boosted internship, internship opportunities"/>
     <meta name="description" content="{if isset($description)} {$description} {else}We are Technology for development specialists that design and implement scalable, sustainable and on demand driven scientific solutions to address simple, moderate and complex challenges in our communities using pieces of software codes and hardware components to come up with such mind blowing solutions.{/if}"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
