@@ -9,7 +9,7 @@ class Projects extends Controller_class
 
     function index($project = 'smart-school') {
         $projects = [
-            "smart-school"
+            "smart-school", 'paullah'
         ];
         if (in_array($project, $projects)) {
             $project = str_replace("-", "_", $project);
@@ -30,6 +30,14 @@ class Projects extends Controller_class
         $this->smarty->assign("title", "Boot Camp");
         $this->smarty->assign("page", "projects");
         $this->smarty->display("bootcamp.tpl");
+    }
+
+    function paullah($title) {
+        $title = str_replace("_", " ", $title);
+        $this->smarty->assign("service", $title);
+        $this->smarty->assign("title", $title);
+        $this->smarty->assign("page", "projects");
+        $this->smarty->display("projects/paullah.tpl");
     }
 
 }
