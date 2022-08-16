@@ -99,14 +99,16 @@
                                 <li class="dropdown more">
                                     <a href="#"><span>More</span></a>
                                     <ul>
-                                        <li><a class="offers" href="//{$smarty.server.SERVER_NAME}/offers">Offers</a></li>
-                                        <li><a class="career" href="//{$smarty.server.SERVER_NAME}/career">Career</a></li>
+                                        <li><a class="more" href="//{$smarty.server.SERVER_NAME}/offers">Offers</a></li>
+                                        <li><a class="more" href="//{$smarty.server.SERVER_NAME}/services">services</a></li>
+                                        <li><a class="more" href="//{$smarty.server.SERVER_NAME}/career">Career</a></li>
                                         <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#mission-statement">Mission Statement</a></li>
                                         <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#vision-statement">Vision statement</a></li>
                                         <li><a href="//store.boostedtechs.com">Boo store</a></li>
                                         <li><a href="//blog.boostedtechs.com">Blog</a></li>
                                         <li><a href="//www.academy.boostedtechs.com">Boosted Academy</a></li>
-                                        <li><a href="//www.auth.boostedtechs.com">Boosted Auth</a></li>
+                                        <li><a href="//www.auth.boostedtechs.com">LOGIN</a></li>
+                                        <li><a href="//www.boostedtechs.com/webmail">Webmail</a></li>
                                         <li><a href="https://www.tumusii.me">Tumusiime Ashiraff</a></li>
                                     </ul>
                                 </li>
