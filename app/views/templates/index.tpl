@@ -105,7 +105,8 @@
                                         <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#mission-statement">Mission Statement</a></li>
                                         <li><a class="about" href="//{$smarty.server.SERVER_NAME}/about-us#vision-statement">Vision statement</a></li>
                                         <li><a href="//store.boostedtechs.com">Boo store</a></li>
-                                        <li><a href="//blog.boostedtechs.com">Blog</a></li>
+                                        <li><a href="https://www.paullah.xyz">Paullah</a></li>
+                                        <li><a href="https://www.boosteds.co">Boosted Payments and SMS solutions</a></li>
                                         <li><a href="//www.academy.boostedtechs.com">Boosted Academy</a></li>
                                         <li><a href="//www.auth.boostedtechs.com">LOGIN</a></li>
                                         <li><a href="//www.boostedtechs.com/webmail">Webmail</a></li>
@@ -276,9 +277,10 @@
                                     <div class="widget-content">
                                         <ul class="list">
                                             <li><a href="//{$smarty.server.SERVER_NAME}/portfolio"><span>Portfolio</span></a></li>
-                                            <li><a href="https://blog.boostedtechs.com">Blog</a></li>
                                             <li><a href="https://www.academy.boostedtechs.com">Boosted Academy</a></li>
                                             <li><a href="https://www.store.boostedtechs.com">Boo Store</a></li>
+                                            <li><a href="https://www.paullah.xyz">Paullah</a></li>
+                                            <li><a href="https://www.boosteds.co">Boosted Payments and SMS solutions</a></li>
                                             <li><a href="https://tumusii.me">Tumusiime Ashiraff</a></li>
                                             <li><a href="//www.auth.boostedtechs.com">Boosted Auth</a></li>
                                         </ul>
