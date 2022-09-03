@@ -24,6 +24,9 @@
                                 Boosted payments and SMS gateway is Boosted's fees collection platform. The software collects money from mobile money apis, credit card apis on behalf of developers. It is the default payments gateway for Boosted's internal projects and plans to open it to the public are underway.
                             </div>
                             <br/>
+                            <a href="//boosteds.co">
+                                <button class="btn btn-outline-info">VISIT BOOSTED PAYMENTS AND SMS SOLUTIONS</button>
+                            </a>
 
                         </div>
                     </div>
